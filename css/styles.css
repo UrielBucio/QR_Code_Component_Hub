@@ -20,8 +20,6 @@ body {
     font-size: 15px;
     height: 100vh;
     justify-content: center;
-    min-width: 39.5rem;
-    width: 100%;
 }
 .container {
     background-color: var(--white);
@@ -47,5 +45,15 @@ p {
     font-size: 1.2em;
     margin: 20px 0;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/*-----------------Mobile Design-----------------------*/
+@media (max-width: 720px) {
+    .container {
+        width: 80%;
+    }
+}
